@@ -41,7 +41,7 @@ function Footer() {
       <div className="footer-title">Contact me</div>
       <div className="footer-links">
         {links.map((item) => (
-          <a key={item.href} href={item.href}>
+          <a key={item.href} href={item.href} target={"_blank"}>
             {item.content}
           </a>
         ))}

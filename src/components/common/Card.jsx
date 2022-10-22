@@ -14,7 +14,9 @@ function Card({ img, title, tool, href }) {
             <Badge key={item} name={item} card={"card-badge"} />
           ))}
         </div>
-        <a href={href}>Visit</a>
+        <a href={href} target={"_blank"}>
+          Visit
+        </a>
       </div>
     </div>
   );

@@ -52,6 +52,10 @@ a {
   position: relative;
 }
 /* Header */
+.logo {
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+}
 .header {
   padding: 0 50px;
   height: 70px;
