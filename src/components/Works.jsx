@@ -4,7 +4,7 @@ import Card from "./common/Card";
 
 function Works() {
   return (
-    <div className="works">
+    <div className="works" id="Works">
       <div className="works-title">My Work</div>
       <div className="cards">
         {data.map((item) => (

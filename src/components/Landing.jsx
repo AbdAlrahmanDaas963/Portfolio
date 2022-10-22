@@ -9,9 +9,8 @@ function Landing() {
       <div className="hi">
         <div className="hi-title">Hi there!</div>
         <div className="hi-desc">
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content.
+          Fuelled by a passion for developing websites and creating mobile apps,
+          Learn more about my journy below.
         </div>
       </div>
     </div>

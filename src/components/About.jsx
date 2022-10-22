@@ -9,7 +9,7 @@ function About() {
     "React-js",
     "React native",
     "MUI",
-    "Framermotion",
+    "Framer motion",
     "Redux Toolkit",
     "React-query",
     "RESTful APIs",
@@ -20,15 +20,15 @@ function About() {
     "Netlify",
   ];
   return (
-    <div className="about center h-100vh">
+    <div className="about center" id="About">
       <div className="career">
         <div className="career-title">My Career So Far</div>
         <div className="career-desc">
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content. commonly used to
-          demonstrate the visual form of a document or a typeface without
-          relying on meaningful content.
+          Always up for a challange, By using the latest technology, I am in my
+          fifth year in collage studying IT eng, I have 1 year experince in
+          React, and handling responsive design, animation, state management and
+          converting designs into readable code, And i like building uniquely
+          websites
         </div>
       </div>
       <div className="badges">

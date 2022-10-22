@@ -7,17 +7,44 @@ import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
+import { hrefs } from "../data/index";
+
 function Footer() {
+  const links = [
+    {
+      href: hrefs.linkedin,
+      content: <LinkedInIcon />,
+    },
+    {
+      href: hrefs.github,
+      content: <GitHubIcon />,
+    },
+    {
+      href: hrefs.telegram,
+      content: <TelegramIcon />,
+    },
+    {
+      href: hrefs.email,
+      content: <EmailIcon />,
+    },
+    {
+      href: hrefs.facebook,
+      content: <FacebookIcon />,
+    },
+    {
+      href: hrefs.instagram,
+      content: <InstagramIcon />,
+    },
+  ];
   return (
-    <div className="footer">
+    <div className="footer" id="Contact">
       <div className="footer-title">Contact me</div>
       <div className="footer-links">
-        <LinkedInIcon />
-        <GitHubIcon />
-        <TelegramIcon />
-        <EmailIcon />
-        <FacebookIcon />
-        <InstagramIcon />
+        {links.map((item) => (
+          <a key={item.href} href={item.href}>
+            {item.content}
+          </a>
+        ))}
       </div>
     </div>
   );

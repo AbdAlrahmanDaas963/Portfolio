@@ -73,3 +73,12 @@ export const data = [
     href: "https://task-manager-abdalrahmandaas.vercel.app/",
   },
 ];
+
+export const hrefs = {
+  linkedin: "https://www.linkedin.com/in/abdalrahman-daas-a04b69212",
+  github: "https://github.com/AbdAlrahmanDaas963",
+  telegram: "http://t.me/abdalrahman_daas",
+  email: "mailto:abdalrahmandaas963@gmail.com",
+  instagram: "https://instagram.com/abdalrahmandaas?utm_medium=copy_link",
+  facebook: "https://www.facebook.com/abdalrahman.daas.16",
+};

@@ -25,7 +25,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+a {
+  color: var(--black);
+}
 /* center */
 .h-100vh {
   min-height: 100vh;
@@ -46,7 +48,6 @@ code {
   align-items: center;
   justify-content: space-between;
 }
-
 .app {
   position: relative;
 }
@@ -58,10 +59,17 @@ code {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: var(--white);
+}
+.ul .li a {
+  text-decoration: none;
+  color: var(--black);
+}
+.ul .li-dark a {
+  color: var(--white);
 }
 .li,
 .logo > div {
-  color: var(--black);
   width: 60px;
   height: 40px;
   margin: 0 10px;
@@ -71,7 +79,6 @@ code {
 }
 .li-dark {
   background-color: var(--black);
-  color: var(--white);
   width: fit-content;
   padding: 5px 20px;
   border-radius: 8px;
@@ -81,6 +88,7 @@ code {
 @media screen and (max-width: 850px) {
   .header {
     padding: 0 10px;
+    height: 50px;
   }
   .li {
     display: none;
@@ -190,6 +198,7 @@ code {
     justify-items: center;
     align-items: center;
     gap: 30px;
+    padding-bottom: 100px !important;
   }
   .badges {
     align-self: flex-start;
@@ -214,7 +223,7 @@ code {
 }
 .card {
   background-color: white;
-  box-shadow: 0 3px 10px var(--secoundaryFont);
+  box-shadow: 0 0 20px var(--secoundaryFont);
 }
 .card-title {
   height: 30px;
@@ -276,6 +285,7 @@ code {
   height: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-top: 0 !important;
 }
 .footer-title {
@@ -289,7 +299,7 @@ code {
   justify-content: center;
 }
 .footer-links > * {
-  margin: 10px;
+  margin: 15px;
 }
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
@@ -302,7 +312,7 @@ code {
   .about,
   .works,
   .footer {
-    padding: 0;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 801px) and (max-width: 900px) {
