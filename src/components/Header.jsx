@@ -16,7 +16,7 @@ function Header() {
       </div>
       <div className="ul">
         {links.map((item) => (
-          <div className="li">
+          <div key={item.title} className="li">
             <a href={item.href}>{item.title}</a>
           </div>
         ))}
