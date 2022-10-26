@@ -82,3 +82,24 @@ export const hrefs = {
   instagram: "https://instagram.com/abdalrahmandaas?utm_medium=copy_link",
   facebook: "https://www.facebook.com/abdalrahman.daas.16",
 };
+
+export const skilles = [
+  "HTML/CSS",
+  "JavaScript",
+  "Responsive Design",
+  "Animation",
+  "React-js",
+  "React native",
+  "MUI",
+  "Bootstrap",
+  "Framer motion",
+  "Redux Toolkit",
+  "React-query",
+  "RESTful APIs",
+  "Adobe XD",
+  "npm",
+  "Git",
+  "Github",
+  "Problem Solving",
+  "Vercel",
+];

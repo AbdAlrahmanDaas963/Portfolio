@@ -1,24 +1,7 @@
 import React from "react";
 import Badge from "./common/Badge";
+import { skilles } from "./../data/index";
 function About() {
-  const skilles = [
-    "HTML/CSS",
-    "JavaScript",
-    "Responsive Design",
-    "Animation",
-    "React-js",
-    "React native",
-    "MUI",
-    "Framer motion",
-    "Redux Toolkit",
-    "React-query",
-    "RESTful APIs",
-    "npm",
-    "Git",
-    "Github",
-    "Vercel",
-    "Netlify",
-  ];
   return (
     <div className="about center" id="About">
       <div className="career">
