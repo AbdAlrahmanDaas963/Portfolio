@@ -29,6 +29,28 @@ code {
 a {
   color: var(--black);
 }
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--secoundaryFont);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--black);
+  box-shadow: 0 0 5px var(--black);
+  border-radius: 10px;
+}
+
 /* center */
 .h-100vh {
   min-height: 100vh;
