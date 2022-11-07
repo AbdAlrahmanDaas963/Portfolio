@@ -7,6 +7,7 @@ import chat from "../img/chat.png";
 import posts from "../img/posts.png";
 import todo from "../img/todo.png";
 import taska from "../img/taska.png";
+import omar from "../img/omar.png";
 
 export const data = [
   {
@@ -71,6 +72,13 @@ export const data = [
     title: "Tasks Management",
     tool: ["React-js", "React-query", "Axios", "MUI", "vercel", "heroku"],
     href: "https://task-manager-abdalrahmandaas.vercel.app/",
+  },
+  {
+    id: 10,
+    img: omar,
+    title: "OMAR",
+    tool: ["React-js", "React-Router", "Framer-motion", "vercel"],
+    href: "https://omar-website-ten.vercel.app/",
   },
 ];
 
