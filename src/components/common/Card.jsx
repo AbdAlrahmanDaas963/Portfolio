@@ -2,7 +2,10 @@ import React from "react";
 
 import Badge from "./Badge";
 
-function Card({ img, title, tool, href }) {
+function Card({ img, title, tool, href, under }) {
+  const UnderDevelpment = (
+    <div className="under-development">Under Develpment</div>
+  );
   return (
     <div className="card">
       <div className="card-img">
@@ -19,6 +22,7 @@ function Card({ img, title, tool, href }) {
           Visit
         </a>
       </div>
+      {under && UnderDevelpment}
     </div>
   );
 }

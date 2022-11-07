@@ -260,6 +260,23 @@ a {
 .card {
   background-color: white;
   box-shadow: 0 0 10px var(--secoundaryFont);
+  position: relative;
+  z-index: -1;
+}
+.under-development {
+  position: absolute;
+  bottom: -30px;
+  height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 10px;
+  background-color: rgb(233, 227, 144);
+  color: var(--black);
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  z-index: -2;
 }
 .card-title {
   height: 30px;
@@ -289,7 +306,6 @@ a {
   min-height: 250px;
   margin: 20px;
   border-radius: 7px;
-  overflow: hidden;
 }
 .card-body {
   padding: 10px;
@@ -301,6 +317,7 @@ a {
   margin-bottom: 10px;
 }
 .card-img {
+  overflow: hidden;
   height: 150px;
   width: 100%;
   overflow: hidden;
