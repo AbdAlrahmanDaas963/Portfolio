@@ -304,6 +304,7 @@ a {
   min-height: 250px;
   margin: 20px;
   border-radius: 7px;
+  overflow: hidden;
 }
 .card-body {
   padding: 10px;
