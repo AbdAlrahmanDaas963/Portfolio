@@ -79,7 +79,6 @@ export const data = [
     title: "OMAR",
     tool: ["React-js", "React-Router", "Framer-motion", "vercel"],
     href: "https://omar-website-ten.vercel.app/",
-    underDevelopment: true,
   },
 ];
 
