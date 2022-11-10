@@ -1,5 +1,7 @@
 import React from "react";
 
+import { motion } from "framer-motion";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
@@ -41,14 +43,15 @@ function Footer() {
       <div className="footer-title">Contact me</div>
       <div className="footer-links">
         {links.map((item) => (
-          <a
+          <motion.a
+            whileHover={{ scale: 1.2 }}
             key={item.href}
             href={item.href}
             target={"_blank"}
             rel="noreferrer"
           >
             {item.content}
-          </a>
+          </motion.a>
         ))}
       </div>
     </div>

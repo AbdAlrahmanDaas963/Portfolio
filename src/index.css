@@ -1,7 +1,7 @@
 :root {
   --black: #191b1f;
   --white: #eeeff1;
-  --secoundaryFont: #62646d;
+  --secoundaryFont: #aaadb8;
   --blue: #1976d2;
 }
 * {
@@ -17,25 +17,50 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
-  color: var(--black);
+  color: var(--white);
 }
 html {
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 a {
-  color: var(--black);
+  color: var(--white);
+}
+#root {
+  overflow: hidden;
+  margin: auto;
 }
 .container {
+  overflow-x: hidden;
   max-width: 1366px;
+  width: 100vw;
   margin: auto;
 }
 .max-h {
   max-height: 800px;
 }
+
+/* -=-=-=-=-=-=-=-=-=-=-=--=-=- */
+/* stars */
+.App {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.stars {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background-color: var(--black);
+}
+/* -=-=-=-=-=-=-=-=-=-=-=--=-=- */
 
 /* scroll bar */
 
@@ -44,7 +69,7 @@ a {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(--black);
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -53,8 +78,8 @@ a {
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--black);
-  box-shadow: 0 0 5px var(--black);
+  background: var(--white);
+  box-shadow: 0 0 5px var(--white);
   border-radius: 10px;
 }
 
@@ -78,9 +103,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.app {
-  position: relative;
-}
+
 /* Header */
 .logo {
   font-family: "Courgette", cursive;
@@ -93,7 +116,7 @@ a {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--white);
+  background-color: var(--black);
   z-index: 2;
 }
 .progress {
@@ -102,15 +125,15 @@ a {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--blue);
+  background: var(--white);
   transform-origin: 0%;
 }
 .ul .li a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
 }
 .ul .li-dark a {
-  color: var(--white);
+  color: var(--black);
 }
 .li,
 .logo > div {
@@ -123,7 +146,7 @@ a {
   width: fit-content;
 }
 .li-dark {
-  background-color: var(--black);
+  background-color: var(--white);
   width: fit-content;
   padding: 5px 20px;
   border-radius: 8px;
@@ -148,7 +171,7 @@ a {
 /* ------------------------------------------------------ */
 
 .landing {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   height: 650px;
 
@@ -168,6 +191,9 @@ a {
 }
 .hi-title {
   font-size: 60px;
+  background: linear-gradient(30deg, #c850c0, var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hi-desc {
   text-overflow: clip;
@@ -209,6 +235,7 @@ a {
   display: grid;
   grid-template-columns: 60% 40%;
   padding-top: 0 !important;
+  overflow-y: hidden;
 }
 .career {
   width: 400px;
@@ -232,7 +259,7 @@ a {
   font-size: 15px;
   padding: 5px 7px;
   margin: 5px;
-  box-shadow: 0 0 2px var(--secoundaryFont);
+  box-shadow: 0 0 2px var(--white);
   border-radius: 7px;
 }
 @media screen and (max-width: 750px) {
@@ -268,7 +295,7 @@ a {
 }
 .card {
   background-color: white;
-  box-shadow: 0 0 10px var(--secoundaryFont);
+  /* box-shadow: 0 0 10px var(--secoundaryFont); */
   position: relative;
 }
 .under-development {
@@ -286,6 +313,7 @@ a {
 }
 .card-title {
   height: 30px;
+  color: var(--black);
 }
 .cards-tools .badge {
   color: var(--secoundaryFont);
@@ -341,12 +369,13 @@ a {
   font-size: 13px;
   font-weight: 500;
   color: black;
+  box-shadow: 0 0 2px var(--black);
 }
 /* ---------------------------------------------------- */
 /* footer */
 /* ---------------------------------------------------- */
 .footer {
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
