@@ -29,6 +29,13 @@ code {
 a {
   color: var(--black);
 }
+.container {
+  max-width: 1366px;
+  margin: auto;
+}
+.max-h {
+  max-height: 800px;
+}
 
 /* scroll bar */
 

@@ -3,7 +3,7 @@ import Badge from "./common/Badge";
 import { skilles } from "./../data/index";
 function About() {
   return (
-    <div className="about center" id="About">
+    <div className="about center container max-h" id="About">
       <div className="career">
         <div className="career-title">My Career So Far</div>
         <div className="career-desc">

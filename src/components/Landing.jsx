@@ -10,7 +10,7 @@ function Landing() {
         <div className="hi-title">Hi there!</div>
         <div className="hi-desc">
           Fuelled by a passion for developing websites and creating mobile apps,
-          Learn more about my journy below.
+          Learn more about my journey below.
         </div>
       </div>
     </div>

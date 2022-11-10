@@ -37,11 +37,16 @@ function Footer() {
     },
   ];
   return (
-    <div className="footer" id="Contact">
+    <div className="footer container" id="Contact">
       <div className="footer-title">Contact me</div>
       <div className="footer-links">
         {links.map((item) => (
-          <a key={item.href} href={item.href} target={"_blank"}>
+          <a
+            key={item.href}
+            href={item.href}
+            target={"_blank"}
+            rel="noreferrer"
+          >
             {item.content}
           </a>
         ))}
