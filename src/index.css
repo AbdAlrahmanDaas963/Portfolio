@@ -57,7 +57,7 @@ a {
   top: 0;
   height: 100vh;
   width: 100vw;
-  z-index: -1;
+  z-index: -2;
   background-color: var(--black);
 }
 /* -=-=-=-=-=-=-=-=-=-=-=--=-=- */
@@ -191,6 +191,8 @@ a {
 }
 .hi-title {
   font-size: 60px;
+}
+.gradiant-text {
   background: linear-gradient(30deg, #c850c0, var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -290,11 +292,12 @@ a {
 /* ---------------------------------------------------- */
 /* works */
 /* ---------------------------------------------------- */
+
 .works {
   padding-top: 0 !important;
 }
 .card {
-  background-color: white;
+  background-color: rgb(10, 10, 10);
   /* box-shadow: 0 0 10px var(--secoundaryFont); */
   position: relative;
 }
@@ -313,10 +316,10 @@ a {
 }
 .card-title {
   height: 30px;
-  color: var(--black);
+  color: var(--white);
 }
 .cards-tools .badge {
-  color: var(--secoundaryFont);
+  color: var(--white);
 }
 .works-title {
   font-size: 35px;
@@ -355,7 +358,6 @@ a {
   overflow: hidden;
   height: 150px;
   width: 100%;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,8 +370,13 @@ a {
 .card-badge {
   font-size: 13px;
   font-weight: 500;
-  color: black;
-  box-shadow: 0 0 2px var(--black);
+  color: var(--white);
+  box-shadow: 0 0 2px var(--white);
+}
+.visit {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }
 /* ---------------------------------------------------- */
 /* footer */

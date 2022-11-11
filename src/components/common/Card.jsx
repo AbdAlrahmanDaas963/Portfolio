@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import Badge from "./Badge";
 
@@ -7,7 +8,12 @@ function Card({ img, title, tool, href, under }) {
     <div className="under-development">Under Develpment</div>
   );
   return (
-    <div className="card">
+    <motion.div
+      whileInView={{ scale: 1, opacity: 1 }}
+      initial={{ scale: 0.5, opacity: 0 }}
+      transition={{ ease: "linear" }}
+      className="card"
+    >
       <div className="card-img">
         <img src={img} alt="" />
       </div>
@@ -18,12 +24,17 @@ function Card({ img, title, tool, href, under }) {
             <Badge key={item} name={item} card={"card-badge"} />
           ))}
         </div>
-        <a href={href} target={"_blank"}>
+        <a
+          className="visit gradiant-text"
+          href={href}
+          target={"_blank"}
+          rel="noreferrer"
+        >
           Visit
         </a>
       </div>
       {under && UnderDevelpment}
-    </div>
+    </motion.div>
   );
 }
 
