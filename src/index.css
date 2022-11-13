@@ -116,7 +116,9 @@ a {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--black);
+  /* background-color: var(--black); */
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.185);
   z-index: 2;
 }
 .progress {
@@ -296,11 +298,6 @@ a {
 .works {
   padding-top: 0 !important;
 }
-.card {
-  background-color: rgb(10, 10, 10);
-  /* box-shadow: 0 0 10px var(--secoundaryFont); */
-  position: relative;
-}
 .under-development {
   position: absolute;
   bottom: 0;
@@ -344,8 +341,11 @@ a {
   margin: 20px;
   border-radius: 7px;
   overflow: hidden;
+  position: relative;
 }
 .card-body {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.185);
   padding: 10px;
 }
 .card-tools {
