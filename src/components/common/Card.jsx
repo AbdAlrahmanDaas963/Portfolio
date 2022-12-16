@@ -7,10 +7,20 @@ function Card({ img, title, tool, href, under }) {
   const UnderDevelpment = (
     <div className="under-development">Under Develpment</div>
   );
+  const Link = (
+    <a
+      className="visit gradiant-text"
+      href={href}
+      target={"_blank"}
+      rel="noreferrer"
+    >
+      Visit
+    </a>
+  );
   return (
     <motion.div
-      whileInView={{ scale: 1, opacity: 1 }}
-      initial={{ scale: 0.5, opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
       transition={{ ease: "linear" }}
       className="card"
     >
@@ -24,14 +34,7 @@ function Card({ img, title, tool, href, under }) {
             <Badge key={item} name={item} card={"card-badge"} />
           ))}
         </div>
-        <a
-          className="visit gradiant-text"
-          href={href}
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          Visit
-        </a>
+        {under || Link}
       </div>
       {under && UnderDevelpment}
     </motion.div>
