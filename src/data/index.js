@@ -6,6 +6,7 @@ import posts from "../img/posts.png";
 import todo from "../img/todo.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
+import form from "../img/form.png";
 
 export const data = [
   {
@@ -60,6 +61,13 @@ export const data = [
   },
   {
     id: 11,
+    img: form,
+    title: "Form Validation",
+    tool: ["React-js", "React-Router", "Formik", "yeb", "vercel"],
+    href: "https://job-task-tawny.vercel.app/",
+  },
+  {
+    id: 12,
     img: puxxlez,
     title: "Puzzle Game",
     tool: [
@@ -92,6 +100,8 @@ export const skilles = [
   "React native",
   "MUI",
   "Bootstrap",
+  "Formik",
+  "yeb",
   "Framer motion",
   "Redux Toolkit",
   "React-query",

@@ -8,7 +8,7 @@ function About() {
         <div className="career-title">My Career So Far</div>
         <div className="career-desc">
           Always up for a challange, By using the latest technology, I am in my
-          fifth year in collage studying IT eng, I have 1 year experince in
+          fifth year in collage studying IT eng, I have 2 year experince in
           React, and handling responsive design, animation, state management and
           converting designs into efficient readable code, And i like building
           uniquely websites
