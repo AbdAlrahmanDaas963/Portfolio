@@ -4,7 +4,6 @@ import sipua from "../img/sipua.png";
 import chat from "../img/chat.png";
 import posts from "../img/posts.png";
 import todo from "../img/todo.png";
-import taska from "../img/taska.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
 
@@ -12,7 +11,7 @@ export const data = [
   {
     id: 2,
     img: Tic,
-    title: "tic-tac-toe",
+    title: "tic-tac-toe Game",
     tool: ["React-js", "Framer-motion"],
     href: "https://abdalrahmandaas963.github.io/tic-tac-toe/",
   },
@@ -51,13 +50,6 @@ export const data = [
     title: "Todo App",
     tool: ["React-js", "Redux-Toolkit"],
     href: "https://abdalrahmandaas963.github.io/todo/",
-  },
-  {
-    id: 9,
-    img: taska,
-    title: "Tasks Management",
-    tool: ["React-js", "React-query", "Axios", "MUI", "vercel", "heroku"],
-    href: "https://task-manager-abdalrahmandaas.vercel.app/",
   },
   {
     id: 10,
@@ -127,3 +119,11 @@ export const skilles = [
 //   tool: ["React-js", "Axios"],
 //   href: "https://abdalrahmandaas963.github.io/Roznama/",
 // },
+
+// {
+//     id: 9,
+//     img: taska,
+//     title: "Tasks Management",
+//     tool: ["React-js", "React-query", "Axios", "MUI", "vercel", "heroku"],
+//     href: "https://task-manager-abdalrahmandaas.vercel.app/",
+//   },
