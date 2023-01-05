@@ -7,10 +7,10 @@ function About() {
       <div className="career">
         <div className="career-title">My Career So Far</div>
         <div className="career-desc">
-          Always up for a challange, By using the latest technology, I am in my
-          fifth year in collage studying IT eng, I have 2 year experince in
-          React, and handling responsive design, animation, state management and
-          converting designs into efficient readable code, And i like building
+          Always up for a challenge, By using the latest technology, I am in my
+          fifth year in college studying IT eng, I have 2 years of experince in
+          React, handling responsive design, animation, state management, and
+          converting designs into efficient readable code, And I like building
           uniquely websites
         </div>
       </div>

@@ -22,12 +22,12 @@ function Card({ img, title, tool, href, under }) {
       whileInView={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ ease: "linear" }}
-      className="card"
+      className="card card-web"
     >
       <div className="card-img">
         <img src={img} alt="" />
       </div>
-      <div className="card-body">
+      <div className="card-body card-body-w">
         <div className="card-title">{title}</div>
         <div className="card-tools">
           {tool.map((item) => (

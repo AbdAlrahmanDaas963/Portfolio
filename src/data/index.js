@@ -1,3 +1,5 @@
+import weather from "../img/mobile/weather.jpg";
+
 import Tic from "../img/Tic.png";
 import meca from "../img/mecaGame.png";
 import sipua from "../img/sipua.png";
@@ -7,6 +9,15 @@ import todo from "../img/todo.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
 import form from "../img/form.png";
+
+export const apps = [
+  {
+    id: 1,
+    img: weather,
+    title: "Weather App",
+    tool: ["React Native", "Expo", "Weather-API"],
+  },
+];
 
 export const data = [
   {

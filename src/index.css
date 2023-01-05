@@ -336,18 +336,51 @@ a {
   justify-content: center;
 }
 .card {
-  width: 300px;
   height: fit-content;
-  min-height: 250px;
   margin: 20px;
   border-radius: 7px;
   overflow: hidden;
   position: relative;
 }
+.ico {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 64px;
+  height: 64px;
+
+  background: rgb(25, 27, 31);
+  background: linear-gradient(
+    45deg,
+    rgba(25, 27, 31, 1) 55%,
+    rgba(238, 239, 241, 1) 74%
+  );
+
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.card-mob {
+  width: 200px;
+  min-height: 250px;
+}
+.card-web {
+  width: 300px;
+  min-height: 250px;
+}
+.card-body-m {
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-body-w {
+}
 .card-body {
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.185);
   padding: 10px;
+  position: relative;
 }
 .card-tools {
   display: flex;
