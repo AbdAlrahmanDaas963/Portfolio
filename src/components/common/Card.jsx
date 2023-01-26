@@ -34,7 +34,8 @@ function Card({ img, title, tool, href, under }) {
             <Badge key={item} name={item} card={"card-badge"} />
           ))}
         </div>
-        {under || Link}
+        {/* {under || Link} */}
+        {Link}
       </div>
       {under && UnderDevelpment}
     </motion.div>
