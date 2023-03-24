@@ -9,7 +9,7 @@ import todo from "../img/todo.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
 import form from "../img/form.png";
-import fullmark from "../img/fullmark.png";
+// import fullmark from "../img/fullmark.png";
 
 export const apps = [
   {
@@ -92,22 +92,6 @@ export const data = [
     href: "https://puxxlez.vercel.app/",
     underDevelopment: true,
   },
-  {
-    id: 13,
-    img: fullmark,
-    title: "Full Mark",
-    tool: [
-      "React-js",
-      "React-Router",
-      "i18n",
-      "MUI",
-      "Formik",
-      "yeb",
-      "vercel",
-    ],
-    href: "https://full-mark.vercel.app/",
-    underDevelopment: true,
-  },
 ];
 
 export const hrefs = {
@@ -166,3 +150,20 @@ export const skilles = [
 //     tool: ["React-js", "React-query", "Axios", "MUI", "vercel", "heroku"],
 //     href: "https://task-manager-abdalrahmandaas.vercel.app/",
 //   },
+
+// {
+//   id: 13,
+//   img: fullmark,
+//   title: "Full Mark",
+//   tool: [
+//     "React-js",
+//     "React-Router",
+//     "i18n",
+//     "MUI",
+//     "Formik",
+//     "yeb",
+//     "vercel",
+//   ],
+//   href: "https://full-mark.vercel.app/",
+//   underDevelopment: true,
+// },
