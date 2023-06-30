@@ -9,7 +9,9 @@ import todo from "../img/todo.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
 import form from "../img/form.png";
-// import fullmark from "../img/fullmark.png";
+import fazaa from "../img/fazaa.png";
+import tascat from "../img/tascat.png";
+import Tic2 from "../img/Tic2.png";
 
 export const apps = [
   {
@@ -27,6 +29,7 @@ export const data = [
     title: "tic-tac-toe Game",
     tool: ["React-js", "Framer-motion"],
     href: "https://abdalrahmandaas963.github.io/tic-tac-toe/",
+    showLink: true,
   },
   {
     id: 3,
@@ -34,6 +37,7 @@ export const data = [
     title: "Memory Card Game",
     tool: ["React-js", "Framer-motion"],
     href: "https://abdalrahmandaas963.github.io/MemoryCardGame2/",
+    showLink: true,
   },
 
   {
@@ -42,6 +46,7 @@ export const data = [
     title: "S I P U A",
     tool: ["React-js", "Framer-motion", "Firebase"],
     href: "https://abdalrahmandaas963.github.io/Sipua_V2/",
+    showLink: true,
   },
   {
     id: 6,
@@ -49,6 +54,7 @@ export const data = [
     title: "Chat App",
     tool: ["React-js", "Firebase"],
     href: "https://abdalrahmandaas963.github.io/ChatApp/",
+    showLink: true,
   },
   {
     id: 7,
@@ -56,6 +62,7 @@ export const data = [
     title: "Posts",
     tool: ["React-js", "Redux-Toolkit", "Axios"],
     href: "https://abdalrahmandaas963.github.io/redux-2/",
+    showLink: true,
   },
   {
     id: 8,
@@ -63,6 +70,7 @@ export const data = [
     title: "Todo App",
     tool: ["React-js", "Redux-Toolkit"],
     href: "https://abdalrahmandaas963.github.io/todo/",
+    showLink: true,
   },
   {
     id: 10,
@@ -70,6 +78,7 @@ export const data = [
     title: "OMAR",
     tool: ["React-js", "React-Router", "Framer-motion", "vercel"],
     href: "https://omar-website-ten.vercel.app/",
+    showLink: true,
   },
   {
     id: 11,
@@ -77,6 +86,7 @@ export const data = [
     title: "Form Validation",
     tool: ["React-js", "React-Router", "Formik", "yeb", "vercel"],
     href: "https://job-task-tawny.vercel.app/",
+    showLink: true,
   },
   {
     id: 12,
@@ -91,6 +101,43 @@ export const data = [
     ],
     href: "https://puxxlez.vercel.app/",
     underDevelopment: true,
+    showLink: true,
+  },
+  {
+    id: 13,
+    img: fazaa,
+    title: "Fazaa",
+    tool: ["React-js", "React-Router", "MUI", "vercel"],
+    href: "https://fazaa2.vercel.app/",
+    underDevelopment: true,
+    showLink: true,
+  },
+  {
+    id: 14,
+    img: tascat,
+    title: "TasCat",
+    tool: [
+      "React-js",
+      "react-query",
+      "React-Router",
+      "MUI",
+      "axios",
+      "react-beautiful-dnd",
+      "framer-motion",
+      "vercel",
+    ],
+    href: "https://tas-cats.vercel.app/",
+    underDevelopment: true,
+    showLink: true,
+  },
+  {
+    id: 15,
+    img: Tic2,
+    title: "tic-tac-toe Game",
+    tool: ["React-js", "framer-motion", "vercel"],
+    href: "https://tas-cats.vercel.app/",
+    underDevelopment: false,
+    showLink: true,
   },
 ];
 

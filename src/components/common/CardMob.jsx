@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import android from "../../img/ico/android.png";
 
 import Badge from "./Badge";
 
@@ -15,7 +14,7 @@ function Card({ img, title, tool, href, under }) {
       target={"_blank"}
       rel="noreferrer"
     >
-      {/* Source */}
+      Visit
     </a>
   );
   return (
@@ -29,12 +28,6 @@ function Card({ img, title, tool, href, under }) {
         <img src={img} alt="" />
       </div>
       <div className="card-body card-body-m">
-        <motion.img
-          whileHover={{ opacity: 1 }}
-          src={android}
-          alt=""
-          className="ico"
-        />
         <div className="card-title">{title}</div>
         <div className="card-tools">
           {tool.map((item) => (

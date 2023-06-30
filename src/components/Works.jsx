@@ -19,6 +19,20 @@ function Works() {
             tool={item.tool}
             href={item.href}
             under={item.underDevelopment}
+            showLink={item.showLink}
+          />
+        ))}
+      </div>
+      <div className="works-title">Mobile Apps</div>
+      <div className="cards">
+        {apps.map((item) => (
+          <CardMob
+            key={item.id}
+            img={item.img}
+            title={item.title}
+            tool={item.tool}
+            href={item.href}
+            under={item.underDevelopment}
           />
         ))}
       </div>

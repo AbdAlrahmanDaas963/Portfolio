@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import Badge from "./Badge";
 
-function Card({ img, title, tool, href, under }) {
+function Card({ img, title, tool, href, under, showLink }) {
   const UnderDevelpment = (
     <div className="under-development">Under Develpment</div>
   );
@@ -34,8 +34,7 @@ function Card({ img, title, tool, href, under }) {
             <Badge key={item} name={item} card={"card-badge"} />
           ))}
         </div>
-        {/* {under || Link} */}
-        {Link}
+        {showLink && Link}
       </div>
       {under && UnderDevelpment}
     </motion.div>
