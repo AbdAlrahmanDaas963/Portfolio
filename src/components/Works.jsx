@@ -23,7 +23,7 @@ function Works() {
           />
         ))}
       </div>
-      <div className="works-title">Mobile Apps</div>
+      {/* <div className="works-title">Mobile Apps</div>
       <div className="cards">
         {apps.map((item) => (
           <CardMob
@@ -35,8 +35,8 @@ function Works() {
             under={item.underDevelopment}
           />
         ))}
-      </div>
-      <div className="works-title">Mobile Apps</div>
+      </div> */}
+      <div className="works-title">Android Apps</div>
       <div className="cards">
         {apps.map((item) => (
           <CardMob

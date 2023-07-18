@@ -12,6 +12,7 @@ import form from "../img/form.png";
 import fazaa from "../img/fazaa.png";
 import tascat from "../img/tascat.png";
 import Tic2 from "../img/Tic2.png";
+import calc from "../img/calc.jpeg"
 
 export const apps = [
   {
@@ -19,6 +20,12 @@ export const apps = [
     img: weather,
     title: "Weather App",
     tool: ["React Native", "Expo", "Weather-API"],
+  },
+  {
+    id: 2,
+    img: calc,
+    title: "Simple Calculator",
+    tool: ["React Native", "Expo"],
   },
 ];
 
