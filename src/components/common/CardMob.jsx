@@ -14,7 +14,7 @@ function Card({ img, title, tool, href, under }) {
       target={"_blank"}
       rel="noreferrer"
     >
-      Visit
+      Source Code
     </a>
   );
   return (

@@ -12,7 +12,8 @@ import form from "../img/form.png";
 import fazaa from "../img/fazaa.png";
 import tascat from "../img/tascat.png";
 import Tic2 from "../img/Tic2.png";
-import calc from "../img/calc.jpeg"
+import calc from "../img/calc.jpeg";
+import Tic3 from "../img/Tic3.png";
 
 export const apps = [
   {
@@ -20,12 +21,21 @@ export const apps = [
     img: weather,
     title: "Weather App",
     tool: ["React Native", "Expo", "Weather-API"],
+    href: "https://github.com/AbdAlrahmanDaas963/WeatherApp",
   },
   {
     id: 2,
     img: calc,
     title: "Simple Calculator",
     tool: ["React Native", "Expo"],
+    href: "https://github.com/AbdAlrahmanDaas963/react-native-calculator",
+  },
+  {
+    id: 3,
+    img: Tic3,
+    title: "tic-tac-toe Game",
+    tool: ["React Native", "Expo", "react-native-paper"],
+    href: "https://github.com/AbdAlrahmanDaas963/react-native-xo",
   },
 ];
 
