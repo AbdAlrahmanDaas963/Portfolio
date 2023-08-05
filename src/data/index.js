@@ -14,6 +14,7 @@ import tascat from "../img/tascat.png";
 import Tic2 from "../img/Tic2.png";
 import calc from "../img/calc.jpeg";
 import Tic3 from "../img/Tic3.png";
+import twitter from "../img/twitter.png";
 
 export const apps = [
   {
@@ -36,6 +37,13 @@ export const apps = [
     title: "tic-tac-toe Game",
     tool: ["React Native", "Expo", "react-native-paper"],
     href: "https://github.com/AbdAlrahmanDaas963/react-native-xo",
+  },
+  {
+    id: 4,
+    img: twitter,
+    title: "Twitter Navigation",
+    tool: ["React Native", "Expo", "react-navigation"],
+    href: "https://github.com/AbdAlrahmanDaas963/twitter-navigation-clone",
   },
 ];
 
