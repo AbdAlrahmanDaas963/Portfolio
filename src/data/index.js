@@ -15,6 +15,7 @@ import Tic2 from "../img/Tic2.png";
 import calc from "../img/calc.jpeg";
 import Tic3 from "../img/Tic3.png";
 import twitter from "../img/twitter.png";
+import furniture from "../img/furniture.png";
 
 export const apps = [
   {
@@ -44,6 +45,22 @@ export const apps = [
     title: "Twitter Navigation",
     tool: ["React Native", "Expo", "react-navigation"],
     href: "https://github.com/AbdAlrahmanDaas963/twitter-navigation-clone",
+  },
+  {
+    id: 5,
+    img: furniture,
+    title: "Furniture e-commerce",
+    tool: [
+      "React Native",
+      "Expo",
+      "react-navigation",
+      "MongoDB",
+      "Express-js",
+      "axios",
+    ],
+    href: "https://github.com/AbdAlrahmanDaas963/Furniture_App",
+    underDevelopment: true,
+    showLink: true,
   },
 ];
 

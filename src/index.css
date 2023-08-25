@@ -1,3 +1,9 @@
+/* :root {
+  --black: #275950;
+  --white: #9bf2ea;
+  --secoundaryFont: #260101 ;
+  --blue: #41bfb3;
+} */
 :root {
   --black: #191b1f;
   --white: #eeeff1;
@@ -178,12 +184,16 @@ a {
   min-height: 100vh;
   height: 650px;
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
   justify-items: center;
   padding: 0 100px;
-  gap: 0;
+  gap: 0; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .me {
   border-radius: 10px;
@@ -207,15 +217,18 @@ a {
 }
 @media screen and (max-width: 750px) {
   .landing {
-    grid-template-columns: 100%;
+    /* grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    gap: 30px;
+    gap: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .hi {
-    align-self: flex-start;
+    /* align-self: flex-start; */
     width: 90%;
   }
   .me {
