@@ -40,7 +40,7 @@ function Footer() {
   ];
   return (
     <div className="footer container" id="Contact">
-      <div className="footer-title">Contact me</div>
+      <div className="footer-title">Get in Touch</div>
       <div className="footer-links">
         {links.map((item) => (
           <motion.a

@@ -1,15 +1,15 @@
-/* :root {
-  --black: #275950;
-  --white: #9bf2ea;
-  --secoundaryFont: #260101 ;
-  --blue: #41bfb3;
-} */
 :root {
-  --black: #191b1f;
+  --black: #101113;
   --white: #eeeff1;
   --secoundaryFont: #aaadb8;
   --blue: #1976d2;
 }
+/* :root {
+  --black: #191b1f;
+  --white: #eeeff1;
+  --secoundaryFont: #aaadb8;
+  --blue: #1976d2;
+} */
 * {
   margin: 0;
   padding: 0;
@@ -203,7 +203,7 @@ a {
   width: 350px;
 }
 .hi-title {
-  font-size: 60px;
+  font-size: 70px;
 }
 .gradiant-text {
   background: linear-gradient(30deg, #c850c0, var(--blue));
@@ -213,7 +213,8 @@ a {
 .hi-desc {
   text-overflow: clip;
   color: var(--secoundaryFont);
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 20px;
 }
 @media screen and (max-width: 750px) {
   .landing {
@@ -333,6 +334,7 @@ a {
   color: var(--white);
 }
 .works-title {
+  margin-top: 50px;
   font-size: 35px;
   font-weight: 600;
 }
@@ -431,6 +433,7 @@ a {
 .footer-links > * {
   margin: 15px;
 }
+
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */

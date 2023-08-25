@@ -37,7 +37,7 @@ function Works() {
           />
         ))}
       </div> */}
-      <div className="works-title">Mobile Apps</div>
+      <div className="works-title">Android & ios Apps</div>
       <div className="cards">
         {apps.map((item) => (
           <CardMob
