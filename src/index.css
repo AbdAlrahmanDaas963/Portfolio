@@ -366,11 +366,11 @@ a {
   min-height: 250px;
 }
 .card-body-m {
-  min-height: 230px;
+  /* min-height: 230px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
 .card-body-w {
 }

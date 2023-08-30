@@ -39,9 +39,9 @@ function Works() {
       </div> */}
       <div className="works-title">Android & ios Apps</div>
       <div className="cards">
-        {apps.map((item) => (
+        {apps.map((item, index) => (
           <CardMob
-            key={item.id}
+            key={index}
             img={item.img}
             title={item.title}
             tool={item.tool}

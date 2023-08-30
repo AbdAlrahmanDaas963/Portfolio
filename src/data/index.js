@@ -16,6 +16,7 @@ import calc from "../img/calc.jpeg";
 import Tic3 from "../img/Tic3.png";
 import twitter from "../img/twitter.png";
 import furniture from "../img/furniture.png";
+import scanner from "../img/scanner.png";
 
 export const apps = [
   {
@@ -49,7 +50,7 @@ export const apps = [
   {
     id: 5,
     img: furniture,
-    title: "Furniture e-commerce",
+    title: "Shop App",
     tool: [
       "React Native",
       "Expo",
@@ -60,6 +61,15 @@ export const apps = [
     ],
     href: "https://github.com/AbdAlrahmanDaas963/Furniture_App",
     underDevelopment: true,
+    showLink: true,
+  },
+  {
+    id: 5,
+    img: scanner,
+    title: "QR Code Scanner",
+    tool: ["React Native", "Expo", "expo-barcode-scanner"],
+    href: "https://github.com/AbdAlrahmanDaas963/qrCodeScanner-react-native",
+    underDevelopment: false,
     showLink: true,
   },
 ];
@@ -193,28 +203,51 @@ export const hrefs = {
 };
 
 export const skilles = [
-  "HTML/CSS",
-  "JavaScript",
+  "React-js",
+  "React-native",
+  "React-redux",
+  "React-query",
+  "React-router",
+  "react-navigation",
+  "MUI",
+
   "Responsive Design",
   "Animation",
-  "React-js",
-  "React native",
-  "i18n",
-  "MUI",
-  "Bootstrap",
+  "Hooks",
+
   "Formik",
   "yeb",
   "Framer motion",
-  "Redux Toolkit",
-  "React-query",
-  "RESTful APIs",
-  "Adobe XD",
-  "npm",
-  "Git",
-  "Github",
-  "Problem Solving",
-  "Vercel",
+  "Expo",
+
+  "Web",
+  "Android",
+  "iOS",
 ];
+// ?
+// export const skilles = [
+//   "HTML/CSS",
+//   "JavaScript",
+//   "Responsive Design",
+//   "Animation",
+//   "React-js",
+//   "React native",
+//   "i18n",
+//   "MUI",
+//   "Bootstrap",
+//   "Formik",
+//   "yeb",
+//   "Framer motion",
+//   "Redux Toolkit",
+//   "React-query",
+//   "RESTful APIs",
+//   "Adobe XD",
+//   "npm",
+//   "Git",
+//   "Github",
+//   "Problem Solving",
+//   "Vercel",
+// ];
 
 // {
 //   id: 1,
