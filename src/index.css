@@ -134,7 +134,13 @@ a {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--white);
+  /* background: var(--white); */
+  background: rgb(2, 115, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 115, 115, 1) 0%,
+    rgba(4, 191, 157, 1) 100%
+  );
   transform-origin: 0%;
 }
 .ul .li a {
@@ -206,7 +212,7 @@ a {
   font-size: 70px;
 }
 .gradiant-text {
-  background: linear-gradient(30deg, #c850c0, var(--blue));
+  background: linear-gradient(30deg, #027373, #04bf9d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -251,6 +257,7 @@ a {
 /* ------------------------------------------------------ */
 .about {
   width: 100%;
+  height: fit-content;
   display: grid;
   grid-template-columns: 60% 40%;
   padding-top: 0 !important;
@@ -267,7 +274,7 @@ a {
   margin-top: 20px;
   color: var(--secoundaryFont);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
 }
 .badges {
   display: flex;
@@ -298,6 +305,9 @@ a {
   .career {
     align-self: flex-end;
     width: 90%;
+  }
+  .career-desc {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 890px) and (max-width: 1100px) {
@@ -350,6 +360,7 @@ a {
 
   justify-content: center;
 }
+
 .card {
   height: fit-content;
   margin: 20px;
@@ -376,8 +387,16 @@ a {
 }
 .card-body {
   backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.185);
-  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.185); */
+  background: rgb(0, 35, 51);
+  background: linear-gradient(
+    180deg,
+    #172026 0%,
+    #172026 96%,
+    #027373 96%,
+    #027373 100%
+  );
+  padding: 10px 10px 20px 10px;
   position: relative;
 }
 .card-tools {

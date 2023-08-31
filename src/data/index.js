@@ -9,7 +9,7 @@ import todo from "../img/todo.png";
 import omar from "../img/omar.png";
 import puxxlez from "../img/puxxlez.png";
 import form from "../img/form.png";
-import fazaa from "../img/fazaa.png";
+// import fazaa from "../img/fazaa.png";
 import tascat from "../img/tascat.png";
 import Tic2 from "../img/Tic2.png";
 import calc from "../img/calc.jpeg";
@@ -155,15 +155,15 @@ export const data = [
     underDevelopment: true,
     showLink: true,
   },
-  {
-    id: 13,
-    img: fazaa,
-    title: "Fazaa",
-    tool: ["React-js", "React-Router", "MUI", "vercel"],
-    href: "https://fazaa2.vercel.app/",
-    underDevelopment: true,
-    showLink: true,
-  },
+  // {
+  //   id: 13,
+  //   img: fazaa,
+  //   title: "Fazaa",
+  //   tool: ["React-js", "React-Router", "MUI", "vercel"],
+  //   href: "https://fazaa2.vercel.app/",
+  //   underDevelopment: true,
+  //   showLink: true,
+  // },
   {
     id: 14,
     img: tascat,

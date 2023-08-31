@@ -55,14 +55,14 @@ function Footer() {
           </motion.a>
         ))}
       </div>
-      <div className="career-desc">
+      {/* <div className="career-desc">
         While my journey might not be laden with traditional job titles, the
         skills I've acquired during these formative years of study stand as a
         testament to my dedication and expertise in React and React Native. I'm
         excited to bring this foundation to real-world projects, ready to tackle
         challenges with the enthusiasm of someone who's already deeply immersed
         in the field.
-      </div>
+      </div> */}
     </div>
   );
 }
