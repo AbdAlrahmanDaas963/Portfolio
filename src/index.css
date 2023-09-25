@@ -36,6 +36,7 @@ code {
 }
 a {
   color: var(--white);
+  text-decoration: none;
 }
 #root {
   overflow: hidden;
@@ -363,18 +364,22 @@ a {
 
 .card {
   height: fit-content;
-  margin: 20px;
+  /* height: 300px; */
+  margin: 10px;
   border-radius: 7px;
   overflow: hidden;
   position: relative;
 }
 .card-mob {
   width: 200px;
+
   min-height: 250px;
 }
 .card-web {
+  height: 300px;
+
   width: 300px;
-  min-height: 250px;
+  /* min-height: 250px; */
 }
 .card-body-m {
   /* min-height: 230px;

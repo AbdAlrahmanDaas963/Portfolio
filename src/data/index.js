@@ -37,7 +37,7 @@ export const apps = [
     id: 3,
     img: Tic3,
     title: "tic-tac-toe Game",
-    tool: ["React Native", "Expo", "react-native-paper"],
+    tool: ["React Native", "Expo"],
     href: "https://github.com/AbdAlrahmanDaas963/react-native-xo",
   },
   {

@@ -4,15 +4,37 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import Stars from "./components/Stars";
+import ShowWorks from "./screens/ShowWorks";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <div>
+        <App />
+        <div className="stars">
+          <Stars />
+        </div>
+      </div>
+    ),
+  },
+  {
+    path: "/projects",
+    element: <ShowWorks />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <div className="stars">
+    {/* <App /> */}
+    <RouterProvider router={router} />
+    {/* <div className="stars">
       <Stars />
-    </div>
+    </div> */}
   </React.StrictMode>
 );
 

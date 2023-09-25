@@ -1,6 +1,6 @@
 import React from "react";
 
-import me from "../img/me.jpg";
+// import me from "../img/me.jpg";
 
 function Landing() {
   return (

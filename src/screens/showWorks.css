@@ -1,0 +1,34 @@
+:root {
+  --black: #101113;
+  --white: #eeeff1;
+  --secoundaryFont: #aaadb8;
+  --blue: #1976d2;
+  --one: #027373;
+  --two: #04bf9d;
+}
+
+.w-container {
+  background-color: var(--black);
+  height: 100vh;
+  min-height: 500px;
+  padding: 50px;
+  overflow-y: scroll;
+}
+.w-head {
+  width: 100%;
+  height: 200px;
+  border-radius: 7px;
+  background-color: var(--two);
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .w-container {
+    padding: 10px;
+  }
+}
